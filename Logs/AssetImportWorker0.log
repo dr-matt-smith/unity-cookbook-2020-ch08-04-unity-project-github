@@ -1,0 +1,99 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.5f1 (3737af19df53) revision 3618735'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1023; Version 2009; 64bit' Language: 'en' Physical Memory: 16257 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.1.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/ShaunFerns/cookbook/unity-cookbook-2020-ch08-04-unity-project-github
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+61291
+Successfully changed project path to: C:/Users/ShaunFerns/cookbook/unity-cookbook-2020-ch08-04-unity-project-github
+C:/Users/ShaunFerns/cookbook/unity-cookbook-2020-ch08-04-unity-project-github
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 75.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.5f1 (3737af19df53)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ShaunFerns/cookbook/unity-cookbook-2020-ch08-04-unity-project-github/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1080 (ID=0x1ba0)
+    Vendor:   NVIDIA
+    VRAM:     8079 MB
+    Driver:   27.21.14.5687
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002463 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 51.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.410 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002651 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.337 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1669 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 72.9 MB.
+System memory in use after: 73.0 MB.
+
+Unloading 49 unused Assets to reduce memory usage. Loaded Objects now: 2098.
+Total: 6.195300 ms (FindLiveObjects: 0.151200 ms CreateObjectMapping: 0.057900 ms MarkObjects: 5.904000 ms  DeleteObjects: 0.080700 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ca567ed25beb1f5cd9a85f1dbd55f7') in 0.015142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/m_red.mat
+  artifactKey: Guid(48af25ece0ceb4e48af02055541c9871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/m_red.mat using Guid(48af25ece0ceb4e48af02055541c9871) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35e4204e56d33c4471f5b0e8576655a') in 0.498148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(4f704ae4b4f98ae41a0bce26658850c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aca82992b6beeddaa6663b47a6390a7') in 0.003309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.355418 seconds.
+  path: Assets/Resources
+  artifactKey: Guid(384f31789e6fb7143b14478a5a97cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources using Guid(384f31789e6fb7143b14478a5a97cc2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4244ce056ac74d1cb004ec73171b3dd1') in 0.002660 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.965756 seconds.
+  path: Assets/Resources/BillingMode.json
+  artifactKey: Guid(564b37a7a877cfb469e6c48cda68493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/BillingMode.json using Guid(564b37a7a877cfb469e6c48cda68493d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4fec7d541f3f532271ac73313f5a3d') in 0.004752 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
